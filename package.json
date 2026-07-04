@@ -1,0 +1,17 @@
+{
+  "name": "fivem-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot pro FiveM RP server - AllowList, BlackList, Ban a další (Vercel + Discord Interactions)",
+  "main": "api/interactions.js",
+  "scripts": {
+    "register": "node register-commands.js"
+  },
+  "dependencies": {
+    "@vercel/kv": "^2.0.0",
+    "discord-interactions": "^3.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
